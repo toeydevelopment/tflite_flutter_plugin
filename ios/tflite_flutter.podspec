@@ -1,4 +1,4 @@
-#
+# Add xnnpack delegate
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
 # Run `pod lib lint tflite_flutter_plugin.podspec' to validate before publishing.
 #
