@@ -10,7 +10,7 @@ String get binaryName {
     ext = 'so';
   } else if (Platform.isMacOS) {
     os = 'mac';
-    ext = 'so';
+    ext = 'dylib';
   } else if (Platform.isWindows) {
     os = 'win';
     ext = 'dll';
@@ -32,6 +32,8 @@ DynamicLibrary tflitelib = () {
     return DynamicLibrary.open('libtensorflowlite_c.so');
   } else if (Platform.isIOS) {
     return DynamicLibrary.process();
+  } else if (Platform.isMacOS) {
+    return DynamicLibrary.open('libtensorflowlite_c-mac.so');
   } else {
     final binaryPath = Platform.script.resolveUri(Uri.directory('.')).path +
         'blobs/$binaryName';
