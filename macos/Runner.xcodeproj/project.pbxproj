@@ -24,7 +24,6 @@
 		1CC08D302762F4FA0018D938 /* libtensorflowlite_c-mac.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC08D2F2762F4FA0018D938 /* libtensorflowlite_c-mac.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1CC08D322762F5180018D938 /* libtensorflowlite_c-mac.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC08D312762F5180018D938 /* libtensorflowlite_c-mac.dylib */; };
 		1CC08D342762F52D0018D938 /* libtensorflowlite_c-mac.dylib in Bundle Framework */ = {isa = PBXBuildFile; fileRef = 1CC08D332762F52D0018D938 /* libtensorflowlite_c-mac.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		1CC08D352762F57C0018D938 /* libtensorflowlite_c-mac.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC08D332762F52D0018D938 /* libtensorflowlite_c-mac.dylib */; };
 		335BBD1B22A9A15E00E9071D /* GeneratedPluginRegistrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BBD1A22A9A15E00E9071D /* GeneratedPluginRegistrant.swift */; };
 		33CC10F12044A3C60003C045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC10F02044A3C60003C045 /* AppDelegate.swift */; };
 		33CC10F32044A3C60003C045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CC10F22044A3C60003C045 /* Assets.xcassets */; };
@@ -62,7 +61,7 @@
 		1CC08D332762F52D0018D938 /* libtensorflowlite_c-mac.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libtensorflowlite_c-mac.dylib"; path = "../../../../../Desktop/blobs/libtensorflowlite_c-mac.dylib"; sourceTree = "<group>"; };
 		333000ED22D3DE5D00554162 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
 		335BBD1A22A9A15E00E9071D /* GeneratedPluginRegistrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedPluginRegistrant.swift; sourceTree = "<group>"; };
-		33CC10ED2044A3C60003C045 /* tflite_flutter_plugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tflite_flutter_plugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CC10ED2044A3C60003C045 /* .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = .app; path = tflite_flutter_plugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CC10F02044A3C60003C045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33CC10F22044A3C60003C045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Runner/Assets.xcassets; sourceTree = "<group>"; };
 		33CC10F52044A3C60003C045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -84,7 +83,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CC08D302762F4FA0018D938 /* libtensorflowlite_c-mac.dylib in Frameworks */,
-				1CC08D352762F57C0018D938 /* libtensorflowlite_c-mac.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +115,7 @@
 		33CC10EE2044A3C60003C045 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33CC10ED2044A3C60003C045 /* tflite_flutter_plugin.app */,
+				33CC10ED2044A3C60003C045 /* .app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,7 +183,7 @@
 			);
 			name = Runner;
 			productName = Runner;
-			productReference = 33CC10ED2044A3C60003C045 /* tflite_flutter_plugin.app */;
+			productReference = 33CC10ED2044A3C60003C045 /* .app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

@@ -33,7 +33,7 @@ DynamicLibrary tflitelib = () {
   } else if (Platform.isIOS) {
     return DynamicLibrary.process();
   } else if (Platform.isMacOS) {
-    return DynamicLibrary.open('libtensorflowlite_c-mac.so');
+    return DynamicLibrary.open('libtensorflowlite_c-mac.dylib');
   } else {
     final binaryPath = Platform.script.resolveUri(Uri.directory('.')).path +
         'blobs/$binaryName';
